@@ -1,0 +1,27 @@
+.carousel{
+    display: flex;
+    border: 5px solid #EDCB2C;
+    border-radius: 3rem;
+
+    button{
+        font-size: 5rem;
+        border-radius: 5rem;
+        padding: 1rem;
+      border: none;
+      background-color: #f5df7e;
+      cursor: pointer;
+      &:hover{
+        background-color:#EDCB2C;
+
+      }
+      &:active{
+        background-color:  #f5df7e;
+      }
+
+    }
+.skills-img{
+    width: 20rem;
+     height: 25rem;
+   object-fit:contain;
+   margin: 2rem;
+}}

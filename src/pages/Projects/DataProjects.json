@@ -1,0 +1,48 @@
+[
+    {
+        "id":"1",
+        "name": "Harry Potter ",
+        "url": "https://harry-potter-react-mu.vercel.app/",
+        "img":"HarryPotter.png",
+        "description":"This Harry Potter-themed test website allows users to explore characters from the wizarding world. Users can search for characters by name, view their key details, and filter by house. The data is dynamically fetched from the Harry Potter API to provide an interactive experience.."
+    },
+    {
+        "id":"2",
+        "name": "Human Internal Organs",
+        "url": "https://khlipochenko.github.io/Test-Projekt/",
+        "img":"/organsSeite.png",
+        "description":"An educational site that explores the functions and anatomy of human internal organs, including the brain, lungs, heart, stomach, liver, kidneys, and intestines."
+    },
+    {
+        "id":"3",
+        "name": "Photo Gallery",
+        "url": "https://khlipochenko.github.io/Photo-Gallery-Project/",
+        "img":"/gallerySeite.png",
+        "description":"A personal project website about Iwan Aiwasowski, featuring his biography, a gallery of famous paintings, and a contact form for inquiries."
+    },
+    {
+        "id":"4",
+        "name": "To-Do List Manager",
+        "url": "https://khlipochenko.github.io/ToDo-liste/",
+        "img":"/toDoSeite.png",
+        "description":"A simple web application that allows users to create, complete, and delete tasks. Users can add tasks to their list, remove them, or mark them as completed. Tasks are saved in the browser's local storage, so they persist between sessions."
+    },
+    {
+        "id":"5",
+        "name": "Dog Breed Finder",
+        "url": "https://khlipochenko.github.io/dogsseite/",
+        "img":"dogsSeite.png",
+        "description":"This test website lets users search for dog breeds and view images. Type a breed to see matching names, then select one to display its images, fetched from the Dog API."
+    }
+    ,
+    {
+        "id":"6",
+        "name": "Pomodoro",
+        "url": "https://pomodoro-two-rho.vercel.app/",
+        "img":"pomodoro.png",
+        "description":"A simple web application that helps users manage their time using the Pomodoro technique. Users can start a timer for focused work sessions and take short or long breaks in between. The app keeps track of the timer state and progress directly in the browser, ensuring a seamless experience without data loss between sessions."
+    }
+    
+  
+
+]

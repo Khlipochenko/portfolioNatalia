@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Sass",
+        "img":"https://sass-lang.com/assets/img/logos/logo.svg"
+    },
+
+    {
+        "name":"MongoDB",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
+    },
+    {
+        "name":"Html5",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+    },
+
+    {
+        "name":"react",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/React_Logo_SVG.svg/1200px-React_Logo_SVG.svg.png"
+    },
+    {
+        "name":"js",
+        "img":"https://thumbs.dreamstime.com/b/javascript-icon-logo-javascript-often-abbreviated-as-js-programming-language-conforms-to-ecmascript-specification-204759326.jpg"
+    },
+
+    {
+        "name":"css3",
+        "img":"https://www.thoughtco.com/thmb/8K6rUSGksWB0SR3tyckgNdnj9cI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/css3-57b597e85f9b58b5c2b338de.png"
+    },
+    {
+        "name":"Tailwind",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tailwind_CSS_logo.svg/200px-Tailwind_CSS_logo.svg.png"
+    },
+    
+    {
+        "name":"Node",
+        "img":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/590px-Node.js_logo.svg.png"
+    }
+]
