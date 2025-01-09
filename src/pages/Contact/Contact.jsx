@@ -47,7 +47,7 @@ export const Contact = () => {
             <ul className="contact-page__profiles-list">
               <li>
                 {" "}
-                <a className="contact-page__profile-item" href="#">
+                <a className="contact-page__profile-item" href="https://github.com/Khlipochenko" target="_blank">
                   <FaGithub />
                 </a>
               </li>
@@ -59,13 +59,13 @@ export const Contact = () => {
               </li>
               <li>
                 {" "}
-                <a className="contact-page__profile-item" href="#">
+                <a className="contact-page__profile-item" href="https://wa.me/+4915126702692">
                   <FaWhatsapp />
                 </a>
               </li>
               <li>
                 {" "}
-                <a className="contact-page__profile-item" href="#">
+                <a className="contact-page__profile-item" href="https://www.instagram.com/khlipochenko_natalia/">
                   <FaInstagram />
                 </a>
               </li>{" "}
