@@ -1,34 +1,40 @@
-[
+[ {
+    "id":"1",
+    "name": "Diary ",
+    "url": "https://tagebuch-eta.vercel.app/",
+    "img":"diary.png",
+    "description":"This is a full-stack project with React and Node.js. Here, users can register, reset their password, and create, edit, and delete new entries."
+},
     {
-        "id":"1",
+        "id":"2",
         "name": "Harry Potter ",
         "url": "https://harry-potter-react-mu.vercel.app/",
         "img":"HarryPotter.png",
         "description":"This Harry Potter-themed test website allows users to explore characters from the wizarding world. Users can search for characters by name, view their key details, and filter by house. The data is dynamically fetched from the Harry Potter API to provide an interactive experience.."
     },
     {
-        "id":"2",
+        "id":"3",
         "name": "Human Internal Organs",
         "url": "https://khlipochenko.github.io/Test-Projekt/",
         "img":"/organsSeite.png",
         "description":"An educational site that explores the functions and anatomy of human internal organs, including the brain, lungs, heart, stomach, liver, kidneys, and intestines."
     },
     {
-        "id":"3",
+        "id":"4",
         "name": "Photo Gallery",
         "url": "https://khlipochenko.github.io/Photo-Gallery-Project/",
         "img":"/gallerySeite.png",
         "description":"A personal project website about Iwan Aiwasowski, featuring his biography, a gallery of famous paintings, and a contact form for inquiries."
     },
     {
-        "id":"4",
+        "id":"5",
         "name": "To-Do List Manager",
         "url": "https://khlipochenko.github.io/ToDo-liste/",
         "img":"/toDoSeite.png",
         "description":"A simple web application that allows users to create, complete, and delete tasks. Users can add tasks to their list, remove them, or mark them as completed. Tasks are saved in the browser's local storage, so they persist between sessions."
     },
     {
-        "id":"5",
+        "id":"6",
         "name": "Dog Breed Finder",
         "url": "https://khlipochenko.github.io/dogsseite/",
         "img":"dogsSeite.png",
@@ -36,7 +42,7 @@
     }
     ,
     {
-        "id":"6",
+        "id":"7",
         "name": "Pomodoro",
         "url": "https://pomodoro-two-rho.vercel.app/",
         "img":"pomodoro.png",
