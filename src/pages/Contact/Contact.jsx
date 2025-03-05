@@ -51,12 +51,12 @@ export const Contact = () => {
                   <FaGithub />
                 </a>
               </li>
-              {/* <li>
+               <li>
                 {" "}
-                <a className="contact-page__profile-item" href="#">
+                <a className="contact-page__profile-item" href="https://www.linkedin.com/in/natalia-panova-5aa8a0346/">
                   <FaLinkedin />
                 </a>
-              </li> */}
+              </li> 
               <li>
                 {" "}
                 <a className="contact-page__profile-item" href="https://wa.me/+4915126702692">
