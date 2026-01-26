@@ -1,10 +1,11 @@
+@use "../../styles/variables" as *;
 .skills-page{
- 
+
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5rem;
-    margin: 0rem 15rem;
+    margin: 13rem 15rem 0 15rem;
     p,b{
         font-size: 3rem;
         line-height: 5rem;
@@ -14,6 +15,22 @@
         padding: 0.5rem;
    
     }
-   
+   // 📱 Handy
+  @media (max-width: $mobile) {
+    p,b{
+        font-size: 1rem;
+        line-height: 5rem;
+    }
+  }
 
+  // 📱 Tablet
+  @media (max-width: $tablet) {
+  margin: 3rem ;
+     p,b{
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+  
+
+  }
 }

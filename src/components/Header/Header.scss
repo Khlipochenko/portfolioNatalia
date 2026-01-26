@@ -1,4 +1,10 @@
+@use "../../styles/variables" as *;
 header{
+  z-index: 1000;
+     position: fixed;
+     top: 0;
+  left: 0;
+  width: 100%;
     font-size: 15rem;
     background-color: #1B242F;
     display: flex;
@@ -8,8 +14,13 @@ header{
     .logo{
         height: 4rem;
     }
+    .burger{
+        position: relative;
+        display: none;
+    }
   
-    nav{
+    .nav{
+        display: block;
         padding: 1rem;
        
     ul{
@@ -31,4 +42,112 @@ header{
             }
         }
     }
-}}
+}
+
+// 📱 Handy
+
+   
+  @media (max-width: $mobile) {
+  padding: 0;
+.nav{
+    display: none;
+}
+  .burger{
+   
+        display: flex;
+        color: #da6763;
+        padding: 1rem;
+      .burger-logo{
+        height: 3rem;
+        margin: 0;
+      }
+    }
+    .blur{
+        position: fixed;
+        top:0;
+        left:0;
+        width: 100vw;
+        height: 100vh;
+       background: rgba(0, 0, 0, 0.5); // Dunkelt leicht ab
+    backdrop-filter: blur(8px); 
+    // Animation für das Hintergrund-Fade-In
+    transition: opacity 0.3s ease;
+    
+    // Wenn das Menü zu ist (Standard)
+    opacity: 0;
+    pointer-events: none; 
+
+    &.is-open {
+      opacity: 1;
+      pointer-events: auto;
+      
+      .menu {
+        transform: translateX(0); // Fährt rein
+      }
+    }
+    .menu{
+    background-color: whitesmoke;
+       position: absolute;
+       top:0rem;
+       right: 0rem;
+      width: 70vw;  // 2/3 der Bildschirmbreite
+  height: 100vh;   // Volle Bildschirmhöhe
+  
+  z-index: 100;    // Sicherstellen, dass es oben liegt
+    
+       text-transform: uppercase;
+       letter-spacing: 1px;
+       font-size: 8rem;
+       font-weight: 500;
+       // VON RECHTS SCHIEBEN:
+      transform: translateX(100%); // Startet ganz rechts außerhalb des Bildschirms
+      transition: transform 0.4s ease-out; // Die Dauer der Animation
+      
+      display: flex;
+      flex-direction: column;
+      // ... dein restlicher Style (font-size, etc.)
+     .closeMenu{
+        color: dimgrey;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+     }  
+      ul {
+        margin-top:5rem;
+     li{
+    
+        list-style: none;
+      
+      
+       
+        
+       }
+        .link{
+            display: block;
+             padding:  0.5rem 0.2rem;
+                text-decoration: none;
+                color: #da6763;
+                padding-left: 1rem;
+  
+             
+
+            }
+            .active{
+                background-color: #f5e0df;
+              
+            }
+
+    }}}
+  .logo{
+        height: 3rem;
+        margin-top: 0.2rem;
+        margin-bottom: 0.2rem;
+    }
+   
+  }
+
+  // 📱 Tablet
+  @media (max-width: $tablet) {
+    
+  }
+}

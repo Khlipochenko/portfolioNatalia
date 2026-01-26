@@ -1,3 +1,5 @@
+@use "../../styles/variables" as *;
+
 h2, h3{
     color: #EDCB2C ;
     text-align: center;
@@ -17,7 +19,7 @@ h3{
 }
 .about{
     padding: 0 10rem;
-}
+     margin-top: 13rem;}
 .education-card{
     border-left: 5px solid grey;
     padding-left: 3rem;
@@ -25,3 +27,43 @@ h3{
     border-radius: 5px;
    border-bottom: 1px solid rgb(216, 209, 209);
 }
+
+// 📱 Handy
+  @media (max-width: $mobile) {
+   p{
+    font-size: 2rem;
+        line-height: 3rem;
+        text-align: justify;
+} 
+.about{
+    padding: 0 2rem;
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+}
+.education-card{
+    border-left: 5px solid grey;
+    padding-left: 2rem;
+    margin: 1rem;
+
+    border-radius: 5px;
+   border-bottom: 1px solid rgb(216, 209, 209);
+}
+span{
+    font-size: 2rem;
+    font-weight: bold;
+}
+   
+  }
+
+  // 📱 Tablet
+  @media (max-width: $tablet) {
+    p, span{
+     font-size: 2rem;
+    line-height: 4rem;
+   } 
+   .about{
+    padding: 0 2rem;
+
+    margin-bottom: 5rem;
+}
+  }
