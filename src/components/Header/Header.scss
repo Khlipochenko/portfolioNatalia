@@ -1,5 +1,12 @@
 @use "../../styles/variables" as *;
 header{
+    a{
+        text-decoration: none;
+         color: white;
+         &:hover{
+            color: #da6763;
+         }
+        }
   z-index: 1000;
      position: fixed;
      top: 0;
@@ -37,9 +44,7 @@ header{
                 }
 
             }
-            .active{
-                color: #da6763;
-            }
+           
         }
     }
 }

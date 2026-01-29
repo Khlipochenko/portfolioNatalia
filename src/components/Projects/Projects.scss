@@ -1,0 +1,23 @@
+@use "../../styles/variables" as *;
+h2{
+  padding-top: 15rem;
+}
+.projekt-seite{
+
+    display: flex;
+    gap: 5rem;
+    flex-wrap: wrap;
+  justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+
+
+
+
+  }
+  // 📱 Handy
+  @media (max-width: $mobile) {
+    h2,h3{
+         padding-top:  3rem;
+    }}

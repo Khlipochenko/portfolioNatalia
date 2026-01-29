@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom"
+
 import logo from "/logo.png";
 import "./Header.scss";
 import { TfiAlignJustify } from "react-icons/tfi";
@@ -17,19 +17,19 @@ export const Header=()=>{
     <BsX className="closeMenu" onClick={()=> setMenuIsOpen(false)}/>
          <ul>
                 <li  onClick={()=> setMenuIsOpen(false)}>
-                    <NavLink to='/' className ='link' activeclassname='active'>Home</NavLink>
+                    <a href='#home' className ='link' >Home</a>
                 </li>
                 <li  onClick={()=> setMenuIsOpen(false)}>
-                    <NavLink to='/about' className ='link' activeclassname='active'>About</NavLink>
+                    <a href='#about' className ='link' >About</a>
                 </li>
                 <li  onClick={()=> setMenuIsOpen(false)}>
-                    <NavLink to='/skills' className ='link' activeclassname='active'>Skills</NavLink>
+                    <a href='#skills' className ='link' >Skills</a>
                 </li>
                 <li  onClick={()=> setMenuIsOpen(false)}>
-                    <NavLink to='/projects' className ='link' activeclassname='active'>Projects</NavLink>
+                    <a href='#projects' className ='link' >Projects</a>
                 </li>
                 <li  onClick={()=> setMenuIsOpen(false)}>
-                    <NavLink to='/contact' className ='link' activeclassname='active'>Contact</NavLink>
+                    <a href='#contact' className ='link' >Contact</a>
                 </li>
             </ul>
     </div></div>
@@ -37,20 +37,19 @@ export const Header=()=>{
        </nav>
         <nav className="nav">
             <ul>
-                <li>
-                    <NavLink to='/' className ='link' activeclassname='active'>Home</NavLink>
+                <li> <a href="#home">Home</a>
                 </li>
                 <li>
-                    <NavLink to='/about' className ='link' activeclassname='active'>About</NavLink>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <NavLink to='/skills' className ='link' activeclassname='active'>Skills</NavLink>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <NavLink to='/projects' className ='link' activeclassname='active'>Projects</NavLink>
+                   <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <NavLink to='/contact' className ='link' activeclassname='active'>Contact</NavLink>
+                     <a href="#contact">Contact</a>
                 </li>
             </ul>
         </nav>

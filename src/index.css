@@ -8,3 +8,6 @@
 h2{
   font-size: 4rem;
 }
+html{
+  scroll-behavior: smooth;
+}

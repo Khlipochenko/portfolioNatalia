@@ -3,8 +3,8 @@ import { ProjectsCard } from "../../components/ProjectsCard/ProjectsCard"
 import "./Projects.scss"
 export const Projects=()=>{
     return(
-        <>
-            <h2>Projects</h2>
+        <div >
+            <h2 id="projects">Projects</h2>
             <div className="projekt-seite">
             {
                 dataProjects.map((project)=>
@@ -12,6 +12,6 @@ export const Projects=()=>{
             }
          
 </div>
-        </>
+        </div>
     )
 }

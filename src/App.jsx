@@ -1,20 +1,16 @@
-import { useState } from 'react';
-import { Outlet } from 'react-router-dom';
-import{Header} from "./components/Header/Header"
 
-import './App.css'
+import "./App.css";
+import {Home} from "./pages/Home/Home.jsx"
+import{Header} from "./components/Header/Header.jsx"
+
 
 function App() {
-
-
   return (
-    <>
-     <Header/>
-     <main>
-     <Outlet></Outlet>
-     </main>
-    </>
-  )
+    <div >
+    <Header></Header>
+     <Home></Home>
+    </div>
+  );
 }
 
-export default App
+export default App;

@@ -1,6 +1,10 @@
+@use "../../styles/variables" as *;
+
 .contact-page{
-    background-color: #DEDDD9;
-   height: 100vh;
+    
+    padding-top: 10rem;
+    background-color: #F8FAFC;
+   min-height: 100vh;
    p{
     color: #DA6763;
    }
@@ -15,13 +19,25 @@
         padding: 5rem 0 0 0;
        
     }
+    &__alles{
+        display: flex;
+        justify-content: center;
+      flex-wrap: wrap;
+        gap:3rem;
+       
+    }
     &__content{
         display: flex;
-        width: 60%;
-        justify-content: center;
-        gap: 3rem;
+      
+        flex-direction: column;
+        min-width: 40%;
+        justify-content: start;
+       padding-top: 2rem;
+        gap: 1rem;
+      
         h4{
-            color:#DA6763
+            color:#1B242F;
+            font-size: large;
         }
 
 
@@ -31,13 +47,12 @@
        
         display: flex;
         
-        background-color: white;
+       
        
         align-items: center;
-        gap: 2rem;
-        padding: 2rem 5rem;
-        box-shadow: 3px 3px 23px -13px rgba(66, 68, 90, 1);
-        border-radius: 3rem;
+        gap: 1rem;
+        padding: 1rem 3rem;
+        
         line-height: 3rem;
         
       
@@ -45,15 +60,16 @@
       
     }
     &__icon{
-      
-        border-radius: 50%;
-        aspect-ratio: 2/1;
-        display: inline-block;
-        text-align: center;
-        align-self: center;
-        padding: 1rem;
-        background-color: #EDCB2C ;
-        color: #1B242F;
+        margin-top: 0.5rem;
+      align-self: start;
+      font-size: 5rem;
+      color: #2b6ab3;
+      border-radius: 0.2rem;
+  
+    
+       padding: 1rem 1.5rem;
+        background-color: #E6F4F7;
+       
 
 
     }
@@ -72,7 +88,7 @@
                 padding-right: 1rem;
                 color: #1B242F;
                 &:hover{
-                    color: #DA6763;
+                    color: #2b6ab3;
                 }
             }
         }
@@ -81,17 +97,18 @@
 display: flex;
 justify-content:space-between;
 width: 100%;
-gap: 2rem;
+gap: 1rem;
 
 }
 &__form{
 
     padding: 3rem;
  
-    box-shadow: 3px 3px 23px -13px rgba(66, 68, 90, 1);
-    border-radius: 3rem;
-    width: 60%;
-    background-color: #da6763;
+border: 1px solid rgb(192, 222, 240);
+    border-radius: 1rem;
+   max-width: 50%;
+   min-width: 40%;
+    background-color: #F8FAFC;
     display: flex;
     flex-direction: column;
     
@@ -109,15 +126,32 @@ gap: 2rem;
 
 &__form-button{
     margin-top: 1rem;
+    padding: 0.5rem 0;
     border-radius: 1rem;
     width: 100%;
     border: none;
-    background-color: #EDCB2C;
+    background-color: #2B6AB3;
     color:white;
     &:hover{
-        background-color: #e2b00b;
+        background-color: rgb(192, 222, 240);
     }
     &:focus{
-        background-color: #f1e495;
+        background-color: rgb(132, 193, 230);
     }}
+
+
+// 📱 Handy
+  @media (max-width: $mobile) {
+    padding-top: 3rem;
+    font-size: 7rem;
+    .contact-page__form{
+        min-width: 70%;
+       .contact-page__name-email{ font-size: 1em; }                     
+    
+    input, textarea{
+        font-size: 1rem;
+    }
+    
+    }
+  }
 }

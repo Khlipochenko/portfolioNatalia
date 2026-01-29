@@ -5,7 +5,7 @@ import  "./Skills.scss";
 
 export const Skills=()=>{
     return(
-    <div className="skills-page">
+    <div className="skills-page" id="skills">
     
         <h2> My skills</h2>
         <Carousel props={dataSkills}></Carousel>

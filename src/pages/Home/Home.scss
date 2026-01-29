@@ -4,9 +4,32 @@
     font-size: 10rem;
     background-image: url('https://images.unsplash.com/photo-1511649475669-e288648b2339?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     width:100vw;
-    height: 100vh;
+   min-height: 100vh;
+   max-height: 100vh;
     background-size: cover;
     background-position: center;
+    .links{
+        padding: 0;
+        margin-top: 2rem;
+        display: flex;
+        gap:2rem;
+        justify-content: center;
+        align-items: center;
+        a{
+            
+            all:unset;
+            cursor: pointer;
+            color:#2c2c29;
+           
+           padding: 0 1rem;
+         
+                 &:hover{
+  transform: scale(1.03);
+color: #304969;
+
+}
+        }
+    }
     .foto{
         position: relative;
         width: 40rem;
@@ -23,7 +46,7 @@
     
     justify-content: center;
    padding-top: 10rem;
-    height: 100vh;
+    height: 70vh;
     color: #1B242F;
     .myName{
         width: 50rem;
@@ -34,6 +57,57 @@
             background-color: #F4D431;
             padding: 0 2rem;
            display: inline-block;
+        }
+        .buttons{
+            margin-top: 1rem;
+            display: flex;
+           
+            gap: 2rem;
+            a{
+                  
+                all:unset;
+               padding: 0.5rem 1rem;
+               border-radius: 7px;
+               cursor: pointer;
+              .buttonName{
+               
+              letter-spacing: 0.2rem;
+                font-weight: normal;
+                  font-size:2rem; 
+                  letter-spacing: 0.1rem;
+               }
+               i{
+                font-size: 4rem;
+               }
+            }
+            
+            .button1{
+background-color: #1B242F;
+color: white;
+
+display: flex;
+align-items: center;
+gap:1rem;
+   transition: all 0.3s ease;
+&:hover{
+   background-color: #1e2d3f ;
+  transform: scale(1.03)
+} }
+.button2{
+    font-size:2rem; 
+  font-weight: 600;
+    letter-spacing: 0.2rem;
+ 
+     transition: all 0.3s ease;
+      border:2px solid #636262;
+ 
+     &:hover{
+  transform: scale(1.03)
+}
+}
+
+
+           
         }
         
     }
@@ -49,10 +123,21 @@
     
 align-items: center;
 justify-content: start;
- padding-top: 1rem;
+ padding-top:6rem;
    
     flex-direction: column;
-  
+  .buttons{
+    .button1{
+        gap:0.5rem
+    }
+    .buttonName, i {
+   
+       font-size:1.5rem !important; }
+       .button2{
+        font-size:1.5rem !important; 
+       }
+   
+  }
     .myName{
 
         width: 90%;
@@ -63,8 +148,8 @@ justify-content: start;
         margin-top: 1rem;
     }
     img{
-        width: 70%;
-        height: 40%;
+        width: 80%;
+      
       
     }
    }

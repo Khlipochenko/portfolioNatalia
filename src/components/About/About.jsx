@@ -1,7 +1,7 @@
 import  "./About.scss";
 export const About=()=>{
     return(
-        < div className='about'>
+        < div className='about' id="about">
             <h2>About</h2>
             <p>I am a junior web developer. I love coding and technology and am excited to build my skills in web development. My training includes modern programming languages and tools that help me create easy-to-use websites. I look forward to improving my skills and taking on new challenges in the future.</p>
         

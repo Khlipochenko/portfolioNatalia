@@ -25,8 +25,9 @@ export const Contact = () => {
     });
   };
   return (
-    <div className="contact-page">
-      <h2 className="contact-page__überschrift">Contact</h2>
+    <div className="contact-page" id="contact">
+     <h2 className="contact-page__überschrift">Contact</h2>
+     <div className="contact-page__alles">
       <div className="contact-page__content">
         <div className=" contact-page__section contact-page__location">
           <div className="contact-page__icon">
@@ -132,7 +133,7 @@ export const Contact = () => {
             send
           </button>
         </form>
-      )}
+      )} </div>
     </div>
   );
 };
