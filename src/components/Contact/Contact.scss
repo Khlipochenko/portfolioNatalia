@@ -143,9 +143,11 @@ border: 1px solid rgb(192, 222, 240);
 // 📱 Handy
   @media (max-width: $mobile) {
     padding-top: 3rem;
+ 
     font-size: 7rem;
     .contact-page__form{
         min-width: 70%;
+        margin-bottom: 4rem ;
        .contact-page__name-email{ font-size: 1em; }                     
     
     input, textarea{
