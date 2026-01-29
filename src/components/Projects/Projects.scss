@@ -18,6 +18,10 @@ h2{
   }
   // 📱 Handy
   @media (max-width: $mobile) {
-    h2,h3{
+    h3{
          padding-top:  3rem;
-    }}
+    }
+    h2{
+        padding-top: 9rem;
+    }
+  }
