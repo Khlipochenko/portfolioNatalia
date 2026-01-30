@@ -2,20 +2,17 @@
 h2{
   padding-top: 15rem;
 }
-.projekt-seite{
-
-    display: flex;
-    gap: 5rem;
-    flex-wrap: wrap;
+.projekt-seite {
+  display: flex;
+  gap: 5rem;
+  flex-wrap: wrap;
   justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-    padding: 2rem 0;
+  align-items: stretch;
 
-
-
-
-  }
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
   // 📱 Handy
   @media (max-width: $mobile) {
     h3{

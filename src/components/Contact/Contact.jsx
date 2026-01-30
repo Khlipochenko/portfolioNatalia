@@ -86,9 +86,9 @@ export const Contact = () => {
       </div>
 
       {isSend ? (
-        <>
+        <div className="message">
         <p>Thank you, {formData.name? formData.name: 'Guest'}!</p>
-        <p> Your message has been successfully sent. I will get back to you as soon as possible!</p></>
+        <p> Your message has been successfully sent. I will get back to you as soon as possible!</p></div>
       ) : (
         <form className="contact-page__form">
           <div className="contact-page__name-email">

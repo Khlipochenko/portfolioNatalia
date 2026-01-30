@@ -1,70 +1,62 @@
-
+.card{
+border: 1px solid rgb(192, 222, 240);
+    box-shadow: 3px 3px 23px -13px rgba(66, 68, 90, 1);
+    border-radius: 1rem;
+     overflow: hidden; 
+     &:hover{
+        border: 1.5px solid rgb(149, 211, 250);
+     }
+       &:hover h3{
+        color:#2B6AB3;
+    }
+    &:hover p{
+         border-top: 5px double #2B6AB3
+        };
 .project-link{
     text-decoration: none;
-    border: 5px double rgba(218,103,99,0.39);
-    border-radius: 11px 40px 0px 0px;
+ 
+
  color: #1B242F;
  position: relative;
  transition: transform 0.5s ease, background-color 0.5s ease;
  h3{
     margin:1rem;
- }
-
- &::after{
-   
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        display: none;
-        background-color: rgba($color: #949292, $alpha: 0.2);
-        border-radius: 7px 35px 0px 0px;
-        content: '';
-        left: 0;
-        top: 0;
-
     
- }
-    &:hover{
   
-        transform: scale(1.05);
-        opacity: 0.7; }
-    &:hover h3{
-        opacity: 1;
-        z-index: 44;
-      
-    }
-    &:hover .icon-link {
-        z-index: 99;
-        opacity: 1;
-        color: black;
-       
-    }
-   
-     &:hover::after{
-        display: block;
-    }
-    .project{
+ }
+
+
     
-       width: 35rem;
-       padding: 2rem;
+    .project{
+        
+    
+       max-width: 38rem;
+       &:hover img {
+  transform: scale(1.1);
+}
+
+       
    
   
 
 }
 img{
-    display: block;
-    width: 30rem;
- margin: 0 auto;
- box-shadow: 3px 3px 23px -13px rgba(66, 68, 90, 1);
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+        border-top-left-radius: 1rem;
+border-top-right-radius: 1rem;
+ 
    
     }
 p{
     border-top: 5px double rgba(66,68,90,0.39);
     margin-top: 2rem;
     line-height: 2.5rem;
-    font-size: 1.8rem;
-    padding-top: 1rem;
-
+   
+ padding:1rem 2rem ;
+        font-size: 1.5rem;
    
     }
 .icon-link{
@@ -75,4 +67,4 @@ p{
     left:45%;
 
 }
-}
+}}
