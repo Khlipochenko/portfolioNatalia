@@ -52,7 +52,7 @@ header{
 // 📱 Handy
 
    
-  @media (max-width: $mobile) {
+  @media (max-width: 862px) {
   padding: 0;
 .nav{
     display: none;
@@ -67,7 +67,7 @@ header{
         margin: 0;
       }
     }
-    .blur{
+    .blur-1{
         position: fixed;
         top:0;
         left:0;
@@ -98,7 +98,7 @@ header{
       width: 70vw;  // 2/3 der Bildschirmbreite
   height: 100vh;   // Volle Bildschirmhöhe
   
-  z-index: 100;    // Sicherstellen, dass es oben liegt
+
     
        text-transform: uppercase;
        letter-spacing: 1px;
@@ -107,7 +107,7 @@ header{
        // VON RECHTS SCHIEBEN:
       transform: translateX(100%); // Startet ganz rechts außerhalb des Bildschirms
       transition: transform 0.4s ease-out; // Die Dauer der Animation
-      
+        z-index: 1001!important;
       display: flex;
       flex-direction: column;
       // ... dein restlicher Style (font-size, etc.)

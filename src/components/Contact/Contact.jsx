@@ -7,9 +7,10 @@ import { IoGitNetworkSharp } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import "./Contact.scss";
 import { useState } from "react";
-
+import { useTranslation } from "react-i18next";
 export const Contact = () => {
   const [isSend, setIsSend] = useState(false);
+  const {t}=useTranslation()
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -26,7 +27,7 @@ export const Contact = () => {
   };
   return (
     <div className="contact-page" id="contact">
-     <h2 className="contact-page__überschrift">Contact</h2>
+     <h2 className="contact-page__überschrift">{t("contact.title")}</h2>
      <div className="contact-page__alles">
       <div className="contact-page__content">
         <div className=" contact-page__section contact-page__location">
@@ -34,8 +35,8 @@ export const Contact = () => {
             <GrLocation />
           </div>
           <div>
-            <h4>Location</h4>
-            <span className="contact-page__span"> Düsseldorf, Germany</span>
+            <h4>{t("contact.place")}</h4>
+            <span className="contact-page__span"> {t("contact.place-name")}</span>
           </div>
         </div>
         <div className=" contact-page__section contact-page__profiles">
@@ -44,7 +45,7 @@ export const Contact = () => {
           </div>
           <div>
             {" "}
-            <h4>Social Profiles</h4>
+            <h4>{t("contact.profiles")}</h4>
             <ul className="contact-page__profiles-list">
               <li>
                 {" "}
@@ -87,14 +88,14 @@ export const Contact = () => {
 
       {isSend ? (
         <div className="message">
-        <p>Thank you, {formData.name? formData.name: 'Guest'}!</p>
-        <p> Your message has been successfully sent. I will get back to you as soon as possible!</p></div>
+        <p>{t("contact.answer-1")} {formData.name? formData.name: 'Guest'}!</p>
+        <p> {t("contact.answer-2")}</p></div>
       ) : (
         <form className="contact-page__form">
           <div className="contact-page__name-email">
             <input
               type="text"
-              placeholder="Your Name"
+              placeholder={t("contact.name")}
               onChange={(e) => handleChange(e)}
               name="name"
               value={formData.name}
@@ -102,7 +103,7 @@ export const Contact = () => {
 
             <input
               type='email'
-              placeholder="Your Email"
+              placeholder={t("contact.email")}
               required
               onChange={(e) => handleChange(e)}
               name="email"
@@ -113,7 +114,7 @@ export const Contact = () => {
             className="subject "
             type="text"
             name="subject"
-            placeholder="Subject"
+            placeholder={t("contact.subject")}
             onChange={(e) => handleChange(e)}
             value={formData.subject}
           />
@@ -122,7 +123,7 @@ export const Contact = () => {
           required
             columns="70"
             rows="5"
-            placeholder="Your message..."
+          placeholder={t("contact.placeholder-textarea")}
             onChange={(e) => handleChange(e)}
             value={formData.message}
           ></textarea>
@@ -130,7 +131,7 @@ export const Contact = () => {
             className="contact-page__form-button"
             onClick={() =>  formData.email&& formData.message && setIsSend(!isSend)}
           >
-            send
+          {t("contact.send")}
           </button>
         </form>
       )} </div>

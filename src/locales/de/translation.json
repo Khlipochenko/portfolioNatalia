@@ -1,0 +1,108 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "Über mich",
+    "skills": "Fähigkeiten",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+
+  "hero": {
+    "title": "Hi, ich bin ",
+    "title-h3": "Natalia Panova",
+    "p-1": "JavaScript Full-Stack Entwicklerin.",
+    "p-2": "Ich liebe es, Produkte zu entwickeln, die das Leben der Menschen einfacher machen.",
+    "button-1": "Meine Projekte",
+    "button-2": "Kontakt"
+  },
+
+  "about": {
+    "title": "Über mich",
+    "text": "Ich bin eine Junior Webentwicklerin. Ich liebe Programmieren und Technologie und freue mich darauf, meine Fähigkeiten in der Webentwicklung weiter auszubauen. Meine Ausbildung umfasst moderne Programmiersprachen und Tools, mit denen ich benutzerfreundliche Websites erstellen kann. Ich freue mich darauf, meine Kenntnisse weiterzuentwickeln und neue Herausforderungen anzunehmen.",
+    "education": "Ausbildung",
+    "education-card-1": {
+      "years": "12/2023 - 07/2025",
+      "place": "Webentwicklungs-Kurs, DCI (Digital Career Institute), Online"
+    },
+    "education-card-2": {
+      "years": "09/2009 - 06/2011",
+      "place": "Master in Betriebswirtschaftslehre (MA), Universität für Raumfahrttechnik, Sankt Petersburg"
+    },
+    "education-card-3": {
+      "years": "09/2005 - 06/2009",
+      "place": "Bachelor in Betriebswirtschaftslehre (BA), Immanuel-Kant-Universität, Kaliningrad"
+    }
+  },
+
+  "skills": {
+    "title": "Meine Fähigkeiten",
+    "description": "Als motivierte Junior-Entwicklerin habe ich praktische Erfahrung mit grundlegenden Webtechnologien wie <b>JavaScript</b>, <b>React</b>, <b>Node.js</b>, <b>Tailwind</b>, <b>CSS3</b>, <b>MongoDB</b>, <b>HTML5</b> und <b>Sass</b>. Ich habe eine Leidenschaft für die Entwicklung responsiver und benutzerfreundlicher Webanwendungen und arbeite kontinuierlich daran, meine Programmierkenntnisse zu verbessern. Mein Fokus liegt auf sauberem, wartbarem Code und dem Erlernen von Best Practices moderner Webentwicklung. Ich bin motiviert, mit erfahrenen Teams zusammenzuarbeiten, an sinnvollen Projekten mitzuwirken und mich als Entwicklerin weiterzuentwickeln."
+  },
+
+  "projects": {
+    "title": "Projekte",
+    "items": [
+      {
+        "id": "1",
+        "name": "Galerie",
+        "url": "https://galerie-alpha.vercel.app/",
+        "img": "galerie.png",
+        "description": "Dies ist ein Frontend-Projekt mit Vue und Nuxt, das das Portfolio eines Künstlers präsentiert, einschließlich Galerie, Informationen über den Künstler und Kontaktmöglichkeiten."
+      },
+      {
+        "id": "2",
+        "name": "Reshare",
+        "url": "https://testreschare-frontend.onrender.com/home",
+        "img": "reshare.png",
+        "description": "Dies ist das Abschlussprojekt des Webentwicklungs-Kurses am Digital Career Institute. Es kombiniert Frontend und Backend mit dem MERN-Stack (MongoDB, Express.js, React, Node.js) und verwendet Tailwind CSS für das Design. Es zeigt die Umsetzung einer Full-Stack-Webanwendung mit den erlernten Technologien."
+      },
+      {
+        "id": "3",
+        "name": "Tagebuch",
+        "url": "https://tagebuch-eta.vercel.app/",
+        "img": "diary.png",
+        "description": "Dies ist ein Full-Stack-Projekt mit React und Node.js. Benutzer können sich registrieren, ihr Passwort zurücksetzen sowie Einträge erstellen, bearbeiten und löschen."
+      },
+      {
+        "id": "4",
+        "name": "Harry Potter",
+        "url": "https://harry-potter-react-mu.vercel.app/",
+        "img": "HarryPotter.png",
+        "description": "Diese Harry-Potter-Testseite ermöglicht es Nutzern, Charaktere aus der Zauberwelt zu entdecken. Nutzer können nach Namen suchen, Details anzeigen und nach Häusern filtern. Die Daten werden dynamisch über eine API geladen."
+      },
+      {
+        "id": "5",
+        "name": "Menschliche Organe",
+        "url": "https://khlipochenko.github.io/Test-Projekt/",
+        "img": "/organsSeite.png",
+        "description": "Eine Lernseite, die Funktionen und Anatomie der menschlichen Organe erklärt, darunter Gehirn, Lunge, Herz, Magen, Leber, Nieren und Darm."
+      },
+      {
+        "id": "6",
+        "name": "Fotogalerie",
+        "url": "https://khlipochenko.github.io/Photo-Gallery-Project/",
+        "img": "/gallerySeite.png",
+        "description": "Ein persönliches Projekt über Iwan Aiwasowski mit Biografie, einer Galerie seiner bekanntesten Werke und einem Kontaktformular."
+      }
+    ]
+  },
+
+  "contact": {
+    "title": "Kontakt",
+    "place": "Ort",
+    "place-name": "Düsseldorf, Deutschland",
+    "profiles": "Social Media",
+      "email": "Ihre Email",
+   "subject":"Betreff",
+   
+    "name":"Ihr Name",
+    "placeholder-textarea": "Ihre Nachricht",
+    "send": "senden",
+    "answer-1": "Vielen Dank, ",
+    "answer-2": "Deine Nachricht wurde erfolgreich gesendet. Ich melde mich so schnell wie möglich bei dir!"
+  },
+
+  "footer": {
+    "text": "© 2026 Natalia. Alle Rechte vorbehalten."
+  }
+}

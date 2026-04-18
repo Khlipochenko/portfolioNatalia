@@ -1,0 +1,106 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+
+  "hero": {
+    "title": "Hi, I'm ",
+    "title-h3":"Natalia Panova",
+    "p-1": "a Javascript Full-Stack Developer.",
+    "p-2": "Lover of creating products which make people's life easier.",
+    "button-1": "View My Work",
+    "button-2": "Contact"
+  },
+
+  "about": {
+    "title": "About",
+    "text": "I am a junior web developer. I love coding and technology and am excited to build my skills in web development. My training includes modern programming languages and tools that help me create easy-to-use websites. I look forward to improving my skills and taking on new challenges in the future.",
+    "education":"Education",
+    "education-card-1":{
+    "years":"12/2023 - 07/2025", "place":"Web Development Course, DCI (Digital Career Institute), Online"},
+    "education-card-2":{
+    "years":"09/2009 - 06/2011", "place":"Master's in Business Administration (MA), University of Space Engineering, Saint Petersburg"},
+    "education-card-3":{
+    "years":"09/2005 - 06/2009", "place":"Bachelor's in Business Administration (BA), Immanuel Kant University, Kaliningrad"}
+  },
+
+  "skills": {
+    "title": "My Skills",
+   "description": "As a motivated junior developer, I have hands-on experience working with core web technologies such as <b> JavaScript</b>, <b>React</b>,  <b>Node.js</b>, <b>Tailwind</b>, <b>CSS3</b>, <b>MongoDB</b>, <b>HTML5</b> and <b>Sass</b>. I am passionate about building responsive, user-friendly web applications and continually improving my coding skills. My focus is on writing clean, maintainable code and learning best practices in modern web development. I am eager to collaborate with experienced teams to contribute to meaningful projects and grow as a developer."
+  },
+
+  "projects": {
+    "title": "Projects",
+
+    "items": [
+      {
+    "id":"1",
+    "name": "Gallery ",
+    "url": "https://galerie-alpha.vercel.app/",
+    "img":"galerie.png",
+    "description":"This is a frontend project built with Vue and Nuxt that showcases an artist’s portfolio, including a gallery, artist information, and contact details."
+},
+{
+    "id":"2",
+    "name": "Reshare ",
+    "url": "https://testreschare-frontend.onrender.com/home",
+    "img":"reshare.png",
+    "description":"This is the final project developed as part of the Web Development course at the Digital Career Institute. It combines frontend and backend using the MERN stack (MongoDB, Express.js, React, Node.js) and uses Tailwind CSS for the design, demonstrating the implementation of a full-stack web application with the technologies learned."
+},
+{
+    "id":"3",
+    "name": "Diary ",
+    "url": "https://tagebuch-eta.vercel.app/",
+    "img":"diary.png",
+    "description":"This is a full-stack project with React and Node.js. Here, users can register, reset their password, and create, edit, and delete new entries."
+},
+    {
+        "id":"4",
+        "name": "Harry Potter ",
+        "url": "https://harry-potter-react-mu.vercel.app/",
+        "img":"HarryPotter.png",
+        "description":"This Harry Potter-themed test website allows users to explore characters from the wizarding world. Users can search for characters by name, view their key details, and filter by house. The data is dynamically fetched from the Harry Potter API to provide an interactive experience.."
+    },
+    {
+        "id":"5",
+        "name": "Human Internal Organs",
+        "url": "https://khlipochenko.github.io/Test-Projekt/",
+        "img":"/organsSeite.png",
+        "description":"An educational site that explores the functions and anatomy of human internal organs, including the brain, lungs, heart, stomach, liver, kidneys, and intestines."
+    },
+    {
+        "id":"6",
+        "name": "Photo Gallery",
+        "url": "https://khlipochenko.github.io/Photo-Gallery-Project/",
+        "img":"/gallerySeite.png",
+        "description":"A personal project website about Iwan Aiwasowski, featuring his biography, a gallery of famous paintings, and a contact form for inquiries."
+    }
+   
+
+    ]
+  },
+
+  "contact": {
+    "title": "Contact",
+    "place": "Location.",
+    "place-name": "Düsseldorf, Germany",
+    "profiles": "Social Profiles",
+    "email": "Your Email",
+   "subject":"Subject",
+   
+    "name":"Your Name",
+   
+   "send": "send ",
+    "placeholder-textarea": "Your message...",
+    "answer-1":"Thank you, ",
+     "answer-2":"Your message has been successfully sent. I will get back to you as soon as possible!"
+  },
+
+  "footer": {
+    "text": "© 2026 Natalia. All rights reserved."
+  }
+}
