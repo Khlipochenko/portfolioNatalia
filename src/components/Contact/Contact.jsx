@@ -91,7 +91,7 @@ export const Contact = () => {
         <p>{t("contact.answer-1")} {formData.name? formData.name: 'Guest'}!</p>
         <p> {t("contact.answer-2")}</p></div>
       ) : (
-        <form className="contact-page__form">
+        <form className="contact-page__form ">
           <div className="contact-page__name-email">
             <input
               type="text"
