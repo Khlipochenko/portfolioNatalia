@@ -13,12 +13,12 @@ export const ProjectsCard = ({ props }) => {
         className="project-link"
       
       >
-        <div className="project">
+        <div className="project ">
        
           <img src={props.img} alt={props.name} />
           <div>
              <h3>{props.name}</h3>
-          <p>{props.description}</p></div> 
+          <p className="pb-5">{props.description}</p></div> 
          
         </div>
       </a>

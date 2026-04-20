@@ -1,16 +1,17 @@
 .card{
-border: 1px solid rgb(192, 222, 240);
+border: 1px solid rgba(27, 36, 47, 0.3);
+min-height: 48rem;
     box-shadow: 3px 3px 23px -13px rgba(66, 68, 90, 1);
     border-radius: 1rem;
      overflow: hidden; 
      &:hover{
-        border: 1.5px solid rgb(149, 211, 250);
+        border: 1.5px solid rgba(27, 36, 47, 0.5);
      }
        &:hover h3{
-        color:#2B6AB3;
+        color:#CC2D3F;
     }
     &:hover p{
-         border-top: 5px double #2B6AB3
+         border-top: 5px double #F5C842
         };
 .project-link{
     text-decoration: none;
@@ -53,6 +54,7 @@ border-top-right-radius: 1rem;
 p{
     border-top: 5px double rgba(66,68,90,0.39);
     margin-top: 2rem;
+   
     line-height: 2.5rem;
    
  padding:1rem 2rem ;
